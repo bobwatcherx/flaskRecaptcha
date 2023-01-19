@@ -1,0 +1,17 @@
+
+<!-- STYLE YOU HTML HERE -->
+<form action="" method="POST"
+	style="display: flex;flex-direction: column;">
+
+			{{form.csrt_token}}
+			{{form.hidden_tag()}}
+			{{form.name.label}} {{form.name}}
+			<!-- NAME FROM YOU FORM IN MAIN.PY FILE -->
+			{{form.password.label}} {{form.password}}
+			{{form.email.label}} {{form.email}}
+			{{form.recaptcha}} 
+			{{form.submit}}
+
+
+
+	</form>
