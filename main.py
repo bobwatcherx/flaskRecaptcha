@@ -21,8 +21,8 @@ app.config["SECRET_KEY"] = "myrandomomdqwdqwkdnqw"
 app.config["RECAPTCHA_USE_SSL"] = False
 # THIS GET FROM DASHBOARD
 
-app.config["RECAPTCHA_PUBLIC_KEY"] = "6LdtJgwkAAAAAKWkOpix8uiMNB5xmmv60SuGBIBF"
-app.config["RECAPTCHA_PRIVATE_KEY"] = "6LdtJgwkAAAAAN8M1EwVEDRWuvd6D1vcTI8iqP1i"
+app.config["RECAPTCHA_PUBLIC_KEY"] = "YOU KEY HERE------"
+app.config["RECAPTCHA_PRIVATE_KEY"] = "YOU KEY HERE-----------"
 app.config["RECAPTCHA_OPTIONS"] = {'theme':'black'}
 
 
